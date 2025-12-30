@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Poetry / Virtual Environments ---
+# We ignore the local .venv folder
+.venv/
+# If you use a different name for your env
+venv/
+ENV/
+
+# --- Environment Variables ---
+.env
+.venv
+.env.test
+
+# --- IDEs / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS specific ---
+.DS_Store
+Thumbs.db
